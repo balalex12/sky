@@ -8,12 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lugares">
+        android:theme="@style/Theme.Sky">
         <activity
             android:name="com.example.sky.PrincipalActivity"
             android:exported="true"
             android:label="@string/title_activity_principal"
-            android:theme="@style/Theme.Lugares.NoActionBar" />
+            android:theme="@style/Theme.Sky.NoActionBar" />
         <activity
             android:name="com.example.sky.MainActivity"
             android:exported="true">

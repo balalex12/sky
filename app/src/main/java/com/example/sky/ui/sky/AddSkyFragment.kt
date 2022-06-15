@@ -26,12 +26,12 @@ class AddSkyFragment : Fragment() {
 
         skyViewModel = ViewModelProvider(this).get(SkyViewModel::class.java)
 
-        binding.submitBtn.setOnClickListener { addLugar() }
+        binding.submitBtn.setOnClickListener { addSky() }
 
         return binding.root
     }
 
-    private fun addLugar() {
+    private fun addSky() {
         val nombre = binding.skyName.text.toString()
 
         if(validation(nombre)) {
